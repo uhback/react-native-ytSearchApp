@@ -48,7 +48,7 @@ export default class App extends Component {
     return (
       // whole screen
       <View style={{ flex: 1, backgroundColor: '#ddd' }} >
-        <AppHeader headerText="Simple Movie Search" />
+        <AppHeader headerText="YouTube Video Search" />
         <SearchBar 
           loading={loading}
           onPressSearch={this.onPressSearch} 
